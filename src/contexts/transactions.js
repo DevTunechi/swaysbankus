@@ -5,7 +5,7 @@ export function getTransactionHistory() {
 
     return new Promise((resolve, reject) => {
         // Replace with your actual API endpoint and logic
-        const apiUrl = 'https://api.yourbankingapp.com/transactions/history';
+        const apiUrl = 'https://api.swaysbankus.com/transactions/history';
         
         fetch(apiUrl, {
             method: 'GET',
@@ -34,7 +34,7 @@ export function createTransaction(transactionData) {
 
     return new Promise((resolve, reject) => {
         // Replace with your actual API endpoint and logic
-        const apiUrl = 'https://api.yourbankingapp.com/transactions';
+        const apiUrl = 'https://api.swaysbankus.com/transactions';
 
         fetch(apiUrl, {
             method: 'POST',

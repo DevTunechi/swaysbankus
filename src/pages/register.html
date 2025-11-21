@@ -2,37 +2,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Register</title>
-    <link rel="stylesheet" href="../styles/styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sways Bank US Register</title>
+  <link rel="stylesheet" href="../styles/styles.css">
 </head>
 <body>
-    <div class="container">
-        <h2>Register</h2>
-        <form id="registerForm">
-            <label for="firstName">First Name:</label>
-            <input type="text" id="firstName" required>
+  <div class="container">
+    <h2>Sways Bank US Registration</h2>
+    <form id="registerForm">
+      <label for="username">Username:</label>
+      <input type="text" id="username" required>
 
-            <label for="lastName">Last Name:</label>
-            <input type="text" id="lastName" required>
+      <label for="displayName">Display Name:</label>
+      <input type="text" id="displayName" required>
 
-            <label for="phone">Phone Number:</label>
-            <input type="tel" id="phone" required>
+      <label for="password">Password:</label>
+      <input type="password" id="password" required>
 
-            <label for="email">Email:</label>
-            <input type="email" id="email" required>
+      <button type="submit">Register</button>
+    </form>
+    <p>Already have an account? <a href="login.html">Login here</a></p>
+  </div>
 
-            <label for="address">Address:</label>
-            <input type="text" id="address" required>
-
-            <label for="password">Password:</label>
-            <input type="password" id="password" required>
-
-            <button type="submit">Register</button>
-        </form>
-        <p>Already have an account? <a href="login.html">Login here</a></p>
-    </div>
-    <script src="../components/button.js"></script> <!-- Include button.js for interactivity -->
+  <script src="../js/formValidations.js"></script> <!-- Include button.js for interactivity -->
+  <script type="module" src="../js/register.js"></script> <!-- Registration logic -->
 </body>
 </html>

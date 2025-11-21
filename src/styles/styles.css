@@ -1,0 +1,13 @@
+/* styles.css */
+
+/* Import base global styles */
+@import url("global.css");
+
+/* Import login page styles */
+@import url("login.css");
+
+/* Import dashboard page styles */
+@import url("dashboard.css");
+
+/* Import navbar styles */
+@import url("navbar.css");
