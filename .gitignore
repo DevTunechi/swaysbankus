@@ -7,7 +7,7 @@ yarn-error.log*
 # Build / dist outputs
 dist/
 build/
-.vercel/
+
 
 # Local environment
 .env
