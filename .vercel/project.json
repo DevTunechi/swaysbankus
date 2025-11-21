@@ -1,0 +1,10 @@
+{
+  "project": "swaysbankus",
+  "orgId": "your-vercel-org-id",
+  "settings": {
+    "rootDirectory": "src",
+    "framework": "other",
+    "buildCommand": "",
+    "outputDirectory": ""
+  }
+}
