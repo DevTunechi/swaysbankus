@@ -1,10 +1,10 @@
 {
-    "name": "simple-banking-system-frontend",
+    "name": "swaysbankus",
     "version": "1.0.0",
-    "description": "Front-end for a simple banking system with user authentication, account management, and transaction functionalities.",
+    "description": "Front-end for SwaysBankUS static site.",
     "main": "js/main.js",
     "scripts": {
-      "start": "http-server public -p 8080",
+      "start": "serve src",
       "build": "echo 'No build process defined'",
       "test": "echo 'No tests defined'"
     },
@@ -14,14 +14,14 @@
       "web",
       "javascript"
     ],
-    "author": "Your Name",
+    "author": "DevTunechi",
     "license": "MIT",
     "dependencies": {
-      "http-server": "^0.12.3" // Lightweight HTTP server for serving static files
+      "http-server": "^0.12.3" 
     },
     "devDependencies": {
-      "eslint": "^8.29.0", // Linter for JavaScript
-      "prettier": "^2.7.1"  // Code formatter
+      "eslint": "^8.29.0", 
+      "prettier": "^2.7.1" 
     },
     "repository": {
       "type": "git",
